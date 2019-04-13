@@ -1,3 +1,4 @@
+// Budget Controller
 var budgetController = (function () {
     var x = 23;
 
@@ -13,15 +14,15 @@ var budgetController = (function () {
 })();
 
 
-
+// UI Controller
 var UIController = (function () {
 
 });
 
 
-
+// Global App Controller
 var controller = (function(budgetCtrl, UIctrl) {
 
-    var z = budgetCtrl.publicTest(5);
+   document.querySelector('')
 
 })(budgetController,UIController);
